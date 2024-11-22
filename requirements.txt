@@ -9,6 +9,7 @@ azure-mgmt-storage
 azure-identity
 azure-keyvault-secrets
 msgraph-sdk==1.5.4
+azure-ai-documentintelligence==1.0.0b4
 
 # Data handling and validation dependencies
 jsonschema
@@ -28,6 +29,10 @@ tenacity==8.5.0
 # Web and async dependencies
 aiohttp==3.9.0b0
 webvtt-py==0.5.1
+
+
+pymupdf
+pillow
 
 # DO NOT include azure-functions-worker in this file
 # The Python Worker is managed by Azure Functions platform

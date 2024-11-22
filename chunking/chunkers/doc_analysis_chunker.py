@@ -133,7 +133,7 @@ class DocAnalysisChunker(BaseChunker):
         5. Logs the number of chunks created and skipped.
         """
         chunks = []
-        document_content = document['content']
+        document_content = document
         document_content = self._number_pagebreaks(document_content)
 
         text_chunks = self._chunk_content(document_content)
